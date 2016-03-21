@@ -1,6 +1,6 @@
 # better-i3-reference
 ### [printable link](http://jpreiss.github.io/better-i3-reference/)
-a version of the i3 reference card with increased legibility.
+a version of the [i3 reference card](https://i3wm.org/docs/refcard.html) with increased legibility.
 
 main changes are:
 
