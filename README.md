@@ -1,5 +1,5 @@
 # better-i3-reference
-### [printable link](http://htmlpreview.github.com/?https://github.com/jpreiss/better-i3-reference/blob/master/i3_reference.html)
+### [printable link](http://jpreiss.github.io/better-i3-reference/)
 a version of the i3 reference card with increased legibility.
 
 main changes are:
