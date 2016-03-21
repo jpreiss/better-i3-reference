@@ -1,0 +1,112 @@
+<html>
+<head>
+<style>
+body {
+	font-family: sans-serif;
+}
+
+.title {
+	font-size: 20pt;
+	text-align: center;
+}
+
+.margin { 
+	height: 6pt;
+}
+
+.category {
+	font-size: 12pt;
+	font-weight: bold;
+	text-align: center;
+	background: #DDE6F8;
+	margin-top: 100px;
+}
+
+.row {
+	vertical-align: top;
+}
+
+.keys {
+	font-family: monospace;
+	padding-right: 6pt;
+	font-size: 13pt;
+	line-height: 18pt;
+}
+
+.shift {
+	font-size: 17pt;
+	line-height: 18pt;
+}
+
+.plus {
+	font-size: 10pt;
+}
+
+.action {
+	font-size: 12pt;
+}
+</style>
+<title>i3 Reference Card</title>
+</head>
+
+<body>
+<table id="wrapper">
+<tr><td colspan="3" class="title">i3 Reference Card</td></tr>
+<tr class="row">
+<td><table>
+<tr><td class="category" colspan="2">Basics</td></tr>
+<tr><td class="keys">&#8629;</td><td class="action">new terminal</td></tr>
+<tr><td class="keys">j</td><td class="action">focus left</td></tr>
+<tr><td class="keys">k</td><td class="action">focus down</td></tr>
+<tr><td class="keys">l</td><td class="action">focus up</td></tr>
+<tr><td class="keys">;</td><td class="action">focus right</td></tr>
+<tr><td class="keys">&#9645;</td><td class="action">toggle focus mode</td></tr>
+
+<tr class="margin"></tr>
+<tr><td class="category" colspan="2">Moving Windows</td></tr>
+<tr><td class="keys"><span class="shift">&#8679;</span> + j</td><td class="action">move left</td></tr>
+<tr><td class="keys"><span class="shift">&#8679;</span> + k</td><td class="action">move down</td></tr>
+<tr><td class="keys"><span class="shift">&#8679;</span> + l</td><td class="action">move up</td></tr>
+<tr><td class="keys"><span class="shift">&#8679;</span> + ;</td><td class="action">move right</td></tr>
+</table></td>
+
+<td><table>
+<tr><td class="category" colspan="2">Modifying Windows</td></tr>
+<tr><td class="keys">f</td><td class="action">toggle fullscreen</td></tr>
+<tr><td class="keys">v</td><td class="action">split vertical</td></tr>
+<tr><td class="keys">h</td><td class="action">split horizontal</td></tr>
+<tr><td class="keys">r</td><td class="action">resize mode</td></tr>
+
+<tr class="margin"></tr>
+<tr><td class="category" colspan="2">Container Layout</td></tr>
+<tr><td class="keys">e</td><td class="action">default</td></tr>
+<tr><td class="keys">s</td><td class="action">stacking</td></tr>
+<tr><td class="keys">w</td><td class="action">tabbed</td></tr>
+
+<tr class="margin"></tr>
+<tr><td class="category" colspan="2">Floating</td></tr>
+<tr><td class="keys"><span class="shift">&#8679;</span> + &#9645;</td><td class="action">toggle floating</td></tr>
+<tr><td class="keys"><span class="shift">&#8679;</span> + <span style="font-size: 8pt">LMB</span></td><td class="action">drag floating</td></tr>
+
+</table></td>
+
+<td><table>
+<tr><td class="category" colspan="2">Using Workspaces</td></tr>
+<tr><td class="keys">0-9</td><td class="action">view workspace</td></tr>
+<tr><td class="keys"><span class="shift">&#8679;</span> + 0-9</td><td class="action">move to workspace</td></tr>
+
+<tr class="margin"></tr>
+<tr><td class="category" colspan="2">Opening / Closing</td></tr>
+<tr><td class="keys">d</td><td class="action">open app launcher</td></tr>
+<tr><td class="keys"><span class="shift">&#8679;</span> + q</td><td class="action">kill window</td></tr>
+
+<tr class="margin"></tr>
+<tr><td class="category" colspan="2">Restart / Exit</td></tr>
+<tr><td class="keys"><span class="shift">&#8679;</span> + c</td><td class="action">reload config file</td></tr>
+<tr><td class="keys"><span class="shift">&#8679;</span> + r</td><td class="action">restart i3 inplace</td></tr>
+<tr><td class="keys"><span class="shift">&#8679;</span> + e</td><td class="action">exit i3</td></tr>
+</table></td>
+</tr>
+</table>
+</body>
+</html>
