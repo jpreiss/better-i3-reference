@@ -8,4 +8,4 @@ main changes are:
 - remove redundant "i3 modifier key" icon
 - shorten some command descriptions
 
-the goal is to make the reference legible when printed in portrait-mode and attached to the wall behind the monitor.
+the goal is to make the reference legible when printed in portrait-mode on A4/Letter paper and attached to the wall behind the monitor.
